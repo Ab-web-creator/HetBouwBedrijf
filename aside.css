@@ -62,7 +62,38 @@ aside ul li a:hover {
   /* color: var(--topBarColor); */
 }
 
+
+
+aside #tillar_a {
+  margin: auto;
+  width: fit-content;
+  padding: 2px 20px;
+  background-color: var(--topBarColor);
+}
+
+aside .tillar:before {
+  content: "";
+  position: absolute;
+  top: 219px;
+  left: 0px;
+  width: 100%;
+  border: 0.5px solid rgba(255, 255, 255, 0.204); 
+  z-index: -1;
+}
+aside .tillar::after {
+  content: "";
+  position: absolute;
+  top: 222px;
+  left: 0px;
+  width: 100%;
+  border: 0.5px solid rgba(255, 255, 255, 0.204); 
+  z-index: -1;
+}
+
+
+
 aside .tillar {
+  margin-top: 10px;
   text-align: center;
 }
 aside .tillar a:hover {
@@ -83,6 +114,7 @@ aside .tillar .birinchi_qator_ul {
 aside .tillar ul li {
   border-width: 0px;
 }
+
 aside .tillar ul li a {
   padding: 1px 10px;
   font-size: 12px;
@@ -154,7 +186,7 @@ aside .tillar ul li:last-child {
   aside .tillar:before {
     content: "";
     position: absolute;
-    top: 382px;
+    top: 392px;
     left: 0px;
     width: 100%;
     border: 0.5px solid rgba(255, 255, 255, 0.204); 
@@ -163,7 +195,7 @@ aside .tillar ul li:last-child {
   aside .tillar::after {
     content: "";
     position: absolute;
-    top: 378px;
+    top: 388px;
     left: 0px;
     width: 100%;
     border: 0.5px solid rgba(255, 255, 255, 0.204); 

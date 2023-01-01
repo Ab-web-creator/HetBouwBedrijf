@@ -237,7 +237,7 @@ button:hover {
   color: var(--topBarColor);
 
   background-color: var(--hoverColor);
-  border-radius: 12px;
+  border-radius: 8px;
   cursor: pointer;
   }
 
@@ -352,7 +352,7 @@ button:hover {
 }
 
 .fourth .in_between_tekst {
-margin: 20px 0px;
+margin: 30px 0px;
 }
 
 .fourth .ikki_columnda_reveal h3 {
@@ -484,6 +484,7 @@ margin: 20px 0px;
 
 
 .video_container {
+  margin-top: 30px;
   display: flex;
 }
 .video_wrapper {
@@ -548,7 +549,7 @@ iframe {
   .nav li a:hover {
     color: var(--topBarColor);
     background-color: var(--hoverColor);
-    border-radius: 15px;
+    border-radius: 10px;
   }
 
   .nav li {
@@ -828,6 +829,9 @@ iframe {
   }
   .fourth .chapga_terish {
     margin-bottom: 0px;
+  }
+  .video_container {
+    margin-top: 0px;
   }
   iframe {
     width: 500px;
