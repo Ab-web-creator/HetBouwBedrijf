@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: Gotham SSm;
     font-weight: 700;
     font-display: swap;
@@ -41,7 +41,9 @@
     font-style: normal;
     src: url(https://cdn-design.tesla.com/tds-fonts/x/woff2/GothamSSm-XLight_Web.woff2)
       format('woff2');
-  }
+  } */
+
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap');
 
   @font-face {
   font-family: JuneBug; 

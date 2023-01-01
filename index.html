@@ -15,6 +15,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@400;500&display=swap" rel="stylesheet">
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -29,9 +31,9 @@
         <img src="images/smaller_logo.png" alt="">
       </div>
       <div class="flex_row navLink_container">
-        <li class="nav__link"><a class="menu_ism1" href="#ishimiz_haqida">Iş haqida</a></li>
-        <li  class="nav__link"><a class="menu_ism2" href="#biz_kimmiz">Biz kimmiz</a></li>
-        <li  class="nav__link"><a class="menu_ism3" href="#kontakt_qismi">Bizga ulaning</a></li>
+        <li class="nav__link"><a  href="#ishimiz_haqida">Iş haqida</a></li>
+        <li  class="nav__link"><a   href="#biz_kimmiz">Biz kimmiz</a></li>
+        <li  class="nav__link"><a   href="#kontakt_qismi">Bizga ulaning</a></li>
       </div>
       <div class="hamburger_menu" area-label="toggle menu" id="responsiveMenuToggleButton">
         <li id="menuBtn"><i class='bx bx-menu'></i></li>
@@ -44,22 +46,24 @@
 <aside>
   <nav class="side_nav">
       <ul>
-          <li><a href="./index.html">Boş bet</a></li>
-          <li><a href="./index.html">Dahobirla</a></li>
-          <li><a href="./index.html">Obodonchilik</a></li>
-          <li><a href="./index.html">Bir kuni</a></li>
-          <li class="tillar"><a href="./index.html"></a>
-            <ul>
-              <li><a>En</a></li>
-              <li><a>NL</a></li>
-              <li><a href="./index.html">Óz</a></li>
-            </ul>
-            <ul>
-              <li><a href="./Uzbek_Cyr.html">Ўз</a></li>
-              <li><a>Ру</a></li>
-              <li><a>Tk</a></li>
-            </ul>
-          </li>
+        <li><a href="./index.html">Boş bet</a></li>
+        <li><a href="./index.html">Dahobirla</a></li>
+        <li><a href="./index.html">Obodonchilik</a></li>
+        <li><a href="./index.html">Bir kuni</a></li>
+        <div class="line_for_tillar"></div>
+        <li class="tillar"><a id="tillar_a" href="">Tillar</a>
+          
+          <ul class="birinchi_qator_ul">
+            <li><a>En</a></li>
+            <li><a>NL</a></li>
+            <li><a href="./index.html">Óz</a></li>
+          </ul>
+          <ul>
+            <li><a href="./Uzbek_Cyr.html">Ўз</a></li>
+            <li><a>Ру</a></li>
+            <li><a>Tk</a></li>
+          </ul>
+        </li>
       </ul>
     </nav>
 </aside>
@@ -119,8 +123,8 @@
       <main>
 
         <div class="texts chapga_terish">
-          <h3>Masterlik qila olasizmi? 
-            <br> Uning vazifalari:</h3>
+          <h3>Masterlik qila olasizmi? </h3>
+        <h4>Uning vazifalari:</h4>
 
           <p>Biz işni rejalaştirib olgandan sóng, to egalariga yetkazib berişgaça bólgan muddat 6 hafta. Har bir loyiha reja bóyiça amalga oşişi, materiallar óz vaqtida qabul qilinişi kerak. Master sub-pudratçilar bilan doimiy aloqada bóladi va işning yarmida ózi jismonan iştirok etadi.
           <br> <br> 
@@ -139,7 +143,7 @@
     <section class="fourth" id="biz_kimmiz">
       <main>
         <div class="ikki_columnda_reveal">
-          <h3>Quriliş kompaniyamiz haqida</h3>
+          <h3>Kompaniyamiz haqida</h3>
         </div>
 
        <div class="textga_container">
@@ -158,7 +162,7 @@
 		      </div>
       </div>
 
-      <div class="">
+      <div class="in_between_tekst">
         <p>Hét Bouwbedrijf kompaniyasi oddiy quriliş kompaniyasi emas. Biz odamlarni mehnat bozoriga tayyorlaymiz, quriliş sohasida professional usta bólişga órgatamiz. 
           Kompaniya yetuk bilimli va óz kasbini sevadigan odamlardan iborat. Işimizning yakuniy darajasi yuqori bólişi uçun biz siz uçun hamişa alohida vaqt ajratamiz. Maqsadimiz ósişda doim davom etiş.</p>
       </div>
@@ -175,15 +179,16 @@
 
       <main>
         <div class="ikki_columnda_reveal">
-          <h3> Biz bilan hamkorlik qilasizmi? <br> 
-            Iş şaroitlari:</h3> 
+          <h3> Hamkorlik qilamizmi?</h3>
+            <h4>Iş şaroitlari:</h4> 
         </div>
 
         <div class="textga_container">
           <div class="texts chapga_terish">
-            <h3 class="ikki_columnda_hide">Biz bilan hamkorlik qilasizmi? <br> 
-              Iş şaroitlari: </h3>
+            <h3 class="ikki_columnda_hide">Hamkorlik qilamizmi? </h3>
+            <h4 class="ikki_columnda_hide add_marginBottom"> Iş şaroitlari: </h4> 
             <li> Darhol doimiy şartnoma bilan işga olinasiz. Haftasiga 40 soatlik iş.</li>
+          
             <li> <span class="ikki_columnda_hide">Oyligi qança bóladi, deb sóraşingiz tabiiy. </span> Maoşingiz şubhasiz yaxşi bóladi, oyiga hatto brutto 3600 yevrogaça. <span class="ikki_columnda_hide"> (Gollandiyada eng kam iş haqqi: soatiga 12 yevro.) </span></li>
             <li> Işingizda juda kóp erkinlik beriladi.</li>
             <li> Murabbiylik qiliş <span class="ikki_columnda_hide">va boşqalarga yordam beriş</span> uçun bu juda yaxşi şans.</li>
