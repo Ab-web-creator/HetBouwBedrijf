@@ -234,7 +234,8 @@ button:hover {
   /* ishla  */
   .hamburger_menu li i {
     color: white;
-    padding: 5px 35px;
+    margin-right: 20px;
+    padding: 5px 15px;
     transition: all ease-in-out 0.4s;
   }
 
@@ -249,8 +250,6 @@ button:hover {
 .nav .navLink_container li {
   padding: 5px 8px;
   }
-
-
 
   #responsiveMenuToggleButton #menuBtn {
     display: block;
