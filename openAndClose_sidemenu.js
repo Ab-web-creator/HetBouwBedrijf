@@ -8,6 +8,7 @@ const blurs = document.querySelector(".blur");
 const side = document.querySelector("aside");
 const sideNav = document.querySelector(".side_nav");
 const body = document.querySelector("body");
+const topbar = document.querySelector(".nav_container");
 
 
 responsiveMenuToggleButton.addEventListener("click", () => {
@@ -17,6 +18,7 @@ responsiveMenuToggleButton.addEventListener("click", () => {
 
 menu.addEventListener("click", () => {
     body.style.overflow = "hidden";
+
     setTimeout(() => {
         side.classList.add("active");
     }, 50)
@@ -24,10 +26,17 @@ menu.addEventListener("click", () => {
     setTimeout(() => {
         blurs.classList.add("active");
     }, 51)
+
+    setTimeout(() => {
+        topbar.style.background = "transparent";
+    }, 400)
 })
 
 cross.addEventListener("click", () => {
     body.style.overflow = "scroll";
+    setTimeout(() => {
+        topbar.style.background = "var(--topBarColor)";
+    }, 50)
     setTimeout(() => {
         blurs.classList.remove("active");
         side.classList.remove("active");
