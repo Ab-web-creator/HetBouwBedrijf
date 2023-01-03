@@ -608,8 +608,8 @@ iframe {
   }
 
   .nav li a:hover {
-    color: var(--topBarColor);
-    background-color: var(--hoverColor);
+    color: rgb(234, 134, 3);
+    /* background-color: var(--hoverColor); */
     border-radius: 10px;
   }
 
