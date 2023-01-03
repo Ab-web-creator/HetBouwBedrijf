@@ -86,7 +86,7 @@ aside ul li a:hover {
 aside #tillar_a {
   margin: auto;
   width: fit-content;
-  padding: 2px 30px;
+  padding: 1px 30px;
   background-color: var(--topBarColor);
 }
 
@@ -112,7 +112,7 @@ aside .tillar::after {
 
 
 aside .tillar {
-  margin-top: 20px;
+  margin-top: 7px;
   text-align: center;
 }
 aside .tillar a:hover {
@@ -245,10 +245,10 @@ aside .tillar ul li:last-child {
     margin-top: 15px;
   }
   aside .tillar:before {
-    top: 392px;
+    top: 472px;
   }
   aside .tillar::after {
-    top: 388px;
+    top: 476px;
   }
 
   aside .tillar ul li {
