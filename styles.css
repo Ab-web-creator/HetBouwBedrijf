@@ -604,13 +604,12 @@ iframe {
 
   .nav_container {
     background-color: var(--topBarColor);
-    /* border-bottom: 3px double rgb(255, 136, 0); */
   }
 
   .nav li a:hover {
     color: rgb(234, 134, 3);
-    /* background-color: var(--hoverColor); */
     border-radius: 10px;
+    transition:  all 0.4s ease-in-out;
   }
 
   .nav li {
