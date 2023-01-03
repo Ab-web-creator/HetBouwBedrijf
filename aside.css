@@ -28,12 +28,22 @@ aside.notactive {
   /* ishla  */
 
 .side_nav {
-  background-image: url(./images/deraza.png);
-  background-size: cover;
-    
-  margin-top: 70px;
+  position: relative;
+  margin-top: 56px;
   padding: 20px 30px;
   padding-bottom: 10px;
+}
+
+.room {
+  position: absolute;
+  width: 190px;
+  height: 390px;
+  background-image: url(./images/room.png);
+  background-size: cover;
+  bottom: 10px;
+
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 aside ul {
@@ -82,7 +92,7 @@ aside #tillar_a {
 aside .tillar:before {
   content: "";
   position: absolute;
-  top: 329px;
+  top: 267px;
   left: 0px;
   width: 100%;
   border: 0.5px solid rgba(255, 255, 255, 0.204); 
@@ -91,7 +101,7 @@ aside .tillar:before {
 aside .tillar::after {
   content: "";
   position: absolute;
-  top: 332px;
+  top: 270px;
   left: 0px;
   width: 100%;
   border: 0.5px solid rgba(255, 255, 255, 0.204); 
@@ -101,7 +111,7 @@ aside .tillar::after {
 
 
 aside .tillar {
-  margin-top: 55px;
+  margin-top: 60px;
   text-align: center;
 }
 aside .tillar a:hover {
@@ -143,13 +153,20 @@ aside .tillar ul li:last-child {
   margin-right: -10px;
 }
 
+.side_nav:first-child::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  border: 0.5px solid rgba(255, 255, 255, 0.204); 
+  z-index: -1;
+}
+
+
 @media only screen and (min-width: 415px) {
   aside {
     width: 320px;
-  }
-  .side_nav {
-    background-image: url(./images/deraza2.png);
-    background-size: cover;
   }
 }
 
@@ -157,12 +174,8 @@ aside .tillar ul li:last-child {
   aside {
     width: 370px;
   }
-  .side_nav {
-    background-image: url(./images/deraza3.png);
-    background-size: cover;
-  }
 
-  aside .tillar {
+  /* aside .tillar {
     margin-top: 75px;
   }
   aside .tillar:before {
@@ -170,10 +183,16 @@ aside .tillar ul li:last-child {
   }
   aside .tillar::after {
     top: 353px;
-  }
+  } */
 }
 
 @media only screen and (min-width: 600px) {
+  .room {
+    display: none;
+  }
+  .side_nav:first-child::before {
+    display: none;
+  }
 
   .side_nav {
     position: relative;
