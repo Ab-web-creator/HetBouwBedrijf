@@ -44,6 +44,7 @@ aside.notactive {
 
   left: 50%;
   transform: translateX(-50%);
+  z-index: -1;
 }
 
 aside ul {
@@ -111,7 +112,7 @@ aside .tillar::after {
 
 
 aside .tillar {
-  margin-top: 60px;
+  margin-top: 20px;
   text-align: center;
 }
 aside .tillar a:hover {
