@@ -86,7 +86,7 @@ aside ul li a:hover {
 aside #tillar_a {
   margin: auto;
   width: fit-content;
-  padding: 1px 30px;
+  padding: 0px 20px;
   background-color: var(--topBarColor);
 }
 
@@ -112,7 +112,8 @@ aside .tillar::after {
 
 
 aside .tillar {
-  margin-top: 7px;
+  margin-top: 20px;
+  padding: 0px;
   text-align: center;
 }
 aside .tillar a:hover {
