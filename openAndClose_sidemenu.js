@@ -44,6 +44,7 @@ cross.addEventListener("click", () => {
 })
 
 blurs.addEventListener("click", () => {
+    topbar.style.background = "var(--topBarColor)";
     body.style.overflow = "scroll";
     setTimeout(() => {
     blurs.classList.remove("active");
