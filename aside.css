@@ -13,6 +13,7 @@ aside {
   height: fit-content;
   max-height: 100vh;
   overflow-y: auto;
+  overflow-x: hidden;
   border-radius: 38px 0 0 8px;
   
 }
