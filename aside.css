@@ -15,7 +15,6 @@ aside {
   overflow-y: auto;
   overflow-x: hidden;
   border-radius: 38px 0 0 8px;
-  
 }
 
 aside.active {
@@ -41,7 +40,7 @@ aside.notactive {
   height: 382px;
   background-image: url(./images/room.png);
   background-size: cover;
-  bottom: 10px;
+  bottom: 15px;
 
   left: 50%;
   transform: translateX(-50%);
@@ -85,14 +84,18 @@ aside ul li a:hover {
 aside #tillar_a {
   margin: auto;
   width: fit-content;
-  padding: 0px 20px;
+  padding: 0px 28px;
   background-color: var(--topBarColor);
+}
+aside .tillar {
+  margin-top: 25px;
+  text-align: center;
 }
 
 aside .tillar:before {
   content: "";
   position: absolute;
-  top: 267px;
+  top: 277px;
   left: 0px;
   width: 100%;
   border: 0.5px solid rgba(255, 255, 255, 0.204); 
@@ -101,20 +104,13 @@ aside .tillar:before {
 aside .tillar::after {
   content: "";
   position: absolute;
-  top: 270px;
+  top: 280px;
   left: 0px;
   width: 100%;
   border: 0.5px solid rgba(255, 255, 255, 0.204); 
   z-index: -1;
 }
 
-
-
-aside .tillar {
-  margin-top: 20px;
-  padding: 0px;
-  text-align: center;
-}
 aside .tillar a:hover {
   color: #ffffff;
   letter-spacing: 0.1rem;
